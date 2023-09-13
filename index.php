@@ -6,7 +6,7 @@
     $lastName  = 'Blaas';
     $telnummer = '0683251899';
     $email = 'rickblaas@live.nl';
-    $dateofbirth = '04-09-1997';
+    $dob = '04-09-1997';
     $stad = 'Hilversum';
     $nationaliteit = 'Nederlands';
     $hobby= 'Gamen';
@@ -21,7 +21,7 @@ if ($rijbewijs === true) {
 
 // Laat alle variable zien op de pagina
 
-echo " $firstName <br> $lastName <br> $telnummer <br> $email <br> $dateofbirth <br> $stad <br> $nationaliteit <br> $hobby <br> $talen <br> $rijbewijs ";
+echo " $firstName <br> $lastName <br> $telnummer <br> $email <br> $dob <br> $stad <br> $nationaliteit <br> $hobby <br> $talen <br> $rijbewijs ";
 
 /*
  Hier wordt gekeken of de secondes gelijk of lager zijn dan 30, als het gelijk of lager is dan is de achtergrond groen.
